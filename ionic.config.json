@@ -1,0 +1,7 @@
+{
+  "name": "SecondAppIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
