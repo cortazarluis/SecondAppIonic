@@ -1,5 +1,5 @@
 <ion-app>
-  <ion-menu side="start" menuId="m1" content-id="main">
+  <ion-menu side="start" menuId="m1" contentId="main">
     <ion-header>
       <ion-toolbar>
         <ion-title>
@@ -9,12 +9,14 @@
     </ion-header>
     <ion-content>
       <ion-list>
+        <ion-menu-toggle>
           <ion-item button [routerLink]="['/main']">
             <ion-label>Home</ion-label>            
           </ion-item>
           <ion-item button [routerLink]="['/product-list']">
             <ion-label>Lista Productos</ion-label>
           </ion-item>
+        </ion-menu-toggle>
       </ion-list>
     </ion-content>
   </ion-menu>
